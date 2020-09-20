@@ -256,7 +256,6 @@ public class JogoDaora{
 			System.out.println("1 - SIM");
 			System.out.println("2 - NAO");
 			fim = input.nextInt();
-			} else return;
 		}
 	}
 }
