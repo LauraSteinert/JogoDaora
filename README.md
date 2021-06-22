@@ -21,6 +21,7 @@
                  \   --<  
                   `.`.<  
              hjw    `-'   
+             
   
 ## JogoDaora
 Jogo simples de escolha, a ser rodado no terminal do computador.  
