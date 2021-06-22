@@ -1,8 +1,7 @@
 ## JogoDaora
 Jogo simples de escolha, a ser rodado no terminal do computador.  
-Infelizmente, meu terminal não permite print de acentos, então tive que retirar os mesmos. No mais, é um jogo em que você é um ganso. E deve fazer o que gansos fazem. Provocar o caos. 😄
-
-## 
+Infelizmente, meu terminal não permite print de acentos, então tive que retirar os mesmos. No mais, é um jogo em que você é um ganso. E deve fazer o que gansos fazem: **Provocar o caos** 😄
+ 
 
 # Racicionio
 Meu raciocínio para o Jogo foi basicamente criar condições para cada escolha do usuário. Optei por fazer uma função separada para isso, mantendo o jogo em uma função chamada “jogo” e, no escopo principal do código, no “main” (que é chamado ao colocar o programa em java para rodar), as condições para se o usuário querer continuar o jogo após jogar uma vez ou terminar o programa.  
@@ -13,7 +12,6 @@ Então, após a escolha do caminho principal, o usuário cai nas situações com
 Dependendo da escolha, se a variável guarda o número 1 ou 2, o usuário cai em um dos finais. Em cada final aparece o tipo de final que o usuário pegou, variando entre bom, neutro, ruim e verdadeiro, de acordo com o nível de caos causado. Temos dois finais bons, um final neutro, dois ruins e um verdadeiro. O verdadeiro seria o que deveria acontecer ao final do jogo, onde o usuário recebe uma mensagem especial e prova que é um agente do caos (o jogo foi inspirado em Untitled Goose Game).  
 Depois do final, aparece uma mensagem padrão de final do jogo, com meu nome (Laura Steinert 🌠) escrito. Depois disso, o usuário sai da função e entra na condição do main, que diz que, enquanto o usuário não digitar 2 (ou seja, a opção NÃO) para continuar o jogo, o jogo roda novamente, recriando todas as situações, incluindo nome e lugar de escolha. 
 
-##
 # Melhorias
 Gostaria de ter incluído imagens em ASCII, como esta aqui, mas sendo talvez um ganso, ou a velhinha, ou o sanduíche de presunto até:   
 
